@@ -1,0 +1,60 @@
+html {
+  font-size: 10px;
+  font-family: "Open Sans", sans-serif;
+  height: 100%;
+  background: linear-gradient(-45deg, #93a34a, #3b8f76, #31c5ff, #000000);
+	background-size: 400% 400%;
+	animation: gradient 8s ease infinite;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;    
+  color: #00589f;
+  text-shadow: 3px 3px 1px black;
+}
+
+p, li {
+  font-size: 15px;    
+  line-height: 2;
+  letter-spacing: 1px;
+  text-align: justify;
+
+}
+
+body {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background: ghostwhite;
+  width: 40%;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@media only screen and (max-device-width: 480px) {
+  body{
+    width: 90%;
+    top: 15%; left: 0%; bottom: 15%; right: 0%;
+  }
+    }
